@@ -1,3 +1,63 @@
-.hero {
-  
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-family: sans-serif;
+  margin: 15rem 5rem 4rem;
+}
+
+.logo {
+  width: 25rem;
+  margin: 8rem;
+}
+
+nav ul {
+  float: right;
+  margin: 7rem;
+  padding-right: 2rem;
+}
+
+nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  margin: 2rem;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.search {
+  width: 3rem;
+  float: right;
+}
+
+.icons {
+  float: right;
+  margin-right: 10rem;
+  width: 17%;
+}
+
+.featured {
+  width: 85%;
+  margin: 8rem;
+  align-items: center;
+}
+
+.video {
+  width: 40%;
+}
+
+.vendor {
+  width: 30%;
+}
+
+.insta {
+  width: 20%;
+  margin: 0.7rem;
+}
+
+.insta-button {
+  font-size: 2rem;
+  color: white;
+  margin: 5rem;
+  padding: 2rem 6rem;
+  background-color: black;
 }
