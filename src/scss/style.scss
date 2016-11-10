@@ -1,22 +1,29 @@
 h1 {
-  text-align: center;
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-family: sans-serif;
-  margin: 15rem 5rem 4rem;
+  margin-top: 15rem;
+  margin-left: 20rem;
+}
+
+h2 {
+  font-size: 1rem;
+  font-family: sans-serif;
+  padding-top: 7rem;
+  margin-left: 3rem;
 }
 
 .logo {
-  width: 25rem;
+  width: 17rem;
   margin: 8rem;
 }
 
 nav ul {
   float: right;
-  margin: 7rem;
   padding-right: 2rem;
 }
 
 nav ul li {
+  float: right;
   display: inline-block;
   text-decoration: none;
   margin: 2rem;
@@ -31,14 +38,14 @@ nav ul li {
 
 .icons {
   float: right;
+  margin-top: 1rem;
   margin-right: 10rem;
   width: 17%;
 }
 
 .featured {
   width: 85%;
-  margin: 8rem;
-  align-items: center;
+  margin: 6rem;
 }
 
 .video {
@@ -46,7 +53,13 @@ nav ul li {
 }
 
 .vendor {
-  width: 30%;
+  width: 33%;
+  margin-left: 2rem;
+}
+
+.instagram {
+  display: flex;
+  margin-left: 6.5rem;
 }
 
 .insta {
@@ -54,10 +67,51 @@ nav ul li {
   margin: 0.7rem;
 }
 
+.event-button {
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+  background-color: white;
+  float: right;
+}
+
+.vendor-button {
+  font-size: 1rem;
+  padding: 0.4rem 1.5rem;
+  background-color: white;
+  float: right;
+}
+
 .insta-button {
-  font-size: 2rem;
+  font-size: 1rem;
   color: white;
-  margin: 5rem;
-  padding: 2rem 6rem;
+  margin-top: 5rem;
+  margin-left: 21.5rem;
+  padding: 1rem 3rem;
   background-color: black;
+}
+
+.footer {
+  margin-top: 6rem;
+  height: 300px;
+  background-color: gray;
+}
+
+.signup {
+  margin-left: 3rem;
+}
+
+.footer ul {
+  float: right;
+  margin-right: 8rem;
+  display: block;
+  font-family: sans-serif;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.footer ul li small {
+  display: block;
 }
