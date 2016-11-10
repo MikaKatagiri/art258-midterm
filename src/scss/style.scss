@@ -9,12 +9,17 @@ h2 {
   font-size: 1rem;
   font-family: sans-serif;
   padding-top: 7rem;
-  margin-left: 3rem;
+  margin-left: 6rem;
 }
 
 .logo {
-  width: 17rem;
-  margin: 8rem;
+  width: 14rem;
+  margin: 4rem;
+}
+
+nav {
+  height: 580px;
+  background-color: #cec9c8;
 }
 
 nav ul {
@@ -23,29 +28,31 @@ nav ul {
 }
 
 nav ul li {
-  float: right;
   display: inline-block;
   text-decoration: none;
   margin: 2rem;
-  font-size: 2rem;
+  padding-top: 2rem;
+  font-size: 0.9rem;
   font-family: sans-serif;
 }
 
 .search {
-  width: 3rem;
+  width: 1.8rem;
   float: right;
+  margin-top: 4.5rem;
 }
 
 .icons {
   float: right;
-  margin-top: 1rem;
+  margin-top: 3rem;
   margin-right: 10rem;
   width: 17%;
 }
 
 .featured {
   width: 85%;
-  margin: 6rem;
+  margin: 3rem;
+  align-items: center;
 }
 
 .video {
@@ -93,11 +100,11 @@ nav ul li {
 .footer {
   margin-top: 6rem;
   height: 300px;
-  background-color: gray;
+  background-color: #cec9c8;
 }
 
 .signup {
-  margin-left: 3rem;
+  margin-left: 6rem;
 }
 
 .footer ul {
