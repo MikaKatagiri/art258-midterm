@@ -72,6 +72,7 @@ header {
   position: absolute;
   margin: -17rem;
   margin-top: 25rem;
+  border-color: black;
 }
 
 .container2 {
@@ -96,6 +97,7 @@ header {
   position: absolute;
   margin: -14rem;
   margin-top: 17rem;
+  border-color: black;
 }
 
 .instagram {
@@ -115,6 +117,7 @@ header {
   margin-left: 21.5rem;
   padding: 1rem 3rem;
   background-color: black;
+  border: none;
 }
 
 .footer {
@@ -133,9 +136,11 @@ input {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-style: italic;
-  padding: 0.2rem 0.6rem;
+  padding: 0.4rem 1.2rem;
   margin-left: 6rem;
   color: black;
+  border: none;
+  border-radius: 7px;
 }
 
 .signup {
@@ -143,6 +148,8 @@ input {
   padding: 0.5rem 1rem;
   background-color: gray;
   color: white;
+  border: none;
+  border-radius: 7px;
 }
 
 .footer ul {
