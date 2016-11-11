@@ -125,9 +125,24 @@ header {
   align-items: flex-start;
 }
 
+.newsletter {
+  display: inline-block;
+}
+
+input {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  padding: 0.2rem 0.6rem;
+  margin-left: 6rem;
+  color: black;
+}
+
 .signup {
-  margin-left: 4rem;
-  margin-top: 10rem;
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: gray;
+  color: white;
 }
 
 .footer ul {
